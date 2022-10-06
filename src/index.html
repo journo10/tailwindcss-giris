@@ -7,7 +7,7 @@
     <link href="/dist/output.css" rel="stylesheet" />
     <title>Tailwind Css</title>
   </head>
-  <body class="text-gray-600">
+  <body class="text-gray-600 font-body">
     <div class="">
       <!-- container div-->
       <div class="">
@@ -15,7 +15,7 @@
         <nav class="">
           <div class="">
             <h1 class="font-bold uppercase p-4">
-              <a class="" href="#">Tailwind Css</a>
+              <a class="text-green-500 sm:text-red-500 md:text-blue-500 lg:text-amber-600" href="#">Tailwind Css</a>
             </h1>
           </div>
           <ul class="">
@@ -24,12 +24,12 @@
                 <span>Home</span>
               </a>
             </li>
-            <li class="text-gray-700 font-bold">
+            <li class="text-gray-500 font-semibold">
               <a href="#" class="">
                 <span>About</span>
               </a>
             </li>
-            <li class="text-gray-700 font-bold">
+            <li class="text-gray-500 font-semibold">
               <a href="#" class="">
                 <span>Contact</span>
               </a>
@@ -39,10 +39,10 @@
       </div>
       <!-- nav bitiş -->
 
-      <main class="px-16 py-6">
-        <div class="">
-          <a href="#" class="">Login</a>
-          <a href="#" class="">Register</a>
+      <main class="px-16 py-6 bg-gray-100">
+        <div class="flex justify-center md:justify-end">
+          <a href="#" class="text-primary mr-3 px-4 py-2 border border-solid">Login</a>
+          <a href="#" class="text-primary px-4 py-2 border border-solid">Register</a>
         </div>
         <header class="">
           <h2 class="text-gray-700 text-3xl font-semibold">Lorem</h2>
@@ -55,15 +55,15 @@
 
           <div class="mt-8">
             <!-- Cards başlangıç -->
-            <div class="">
+            <div class="bg-white rounded w-[350px] h-[275px] overflow-hidden shadow-lg">
               <img
-                class="w-[300px] h-[175px] object-cover object-center"
+                class="w-full h-[175px] rounded-xl object-cover object-center p-2 "
                 src="./img/pexels-food-1.jpg"
                 alt="food-1"
               />
-              <div class="">
-                <span>Lorem ipsum dolor sit.</span>
-                <span>Lorem, ipsum dolor.</span>
+              <div class="p-2 text-center">
+                <span class="font-bold">Lorem ipsum dolor sit.</span>
+                <span class="block text-sm text-gray-500">Lorem, ipsum dolor.</span>
               </div>
             </div>
           </div>
@@ -74,8 +74,8 @@
           <div class="mt-8">
             <!-- Card gelecek -->
           </div>
-          <div class="">
-            <div class="">Lorem, ipsum.</div>
+          <div class="flex justify-center">
+            <div class="text-secondary-200 bg-secondary-100 p-2">Lorem, ipsum.</div>
           </div>
         </div>
       </main>
